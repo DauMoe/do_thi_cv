@@ -1,24 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-.title {
-    background-color: antiquewhite;
-}
-
-.left {
-    float: left;
-    width: 80%;
-}
-
-.right {
-    float: right;
-    width: 20%;
-    background-color: rgba(214, 219, 223, 1);
-}
-
-.text-center {
-    text-align: center;
+    font-size: 15px;
 }
 
 table {
@@ -30,7 +12,6 @@ table {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-
 
 th{
     border: 1px solid black;
@@ -47,3 +28,36 @@ th {
     display: table-cell;
 }
 
+.title {
+    background-color: antiquewhite;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*Khoang cach*/
+
+.w-20per{
+    width: 20%;
+}
+
+.w-50per{
+    width: 50%;
+}
+
+.w-80per{
+    width: 80%;
+}
+
+.p-r-0{
+    padding-right: 0px;
+}
