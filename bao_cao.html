@@ -17,11 +17,13 @@
 </div>
 
 <div class="left w-80per">
-    <div class="nav">
+    <div class="nav left w-80per">
         <p>Hiển thị theo:</p>
         <a class="choose" onclick="load_table_nv()">Tên nhân viên</a>
-        <a class="choose" s onclick="load_table_cv()">Công việc</a>
-        <div id="search"></div>
+        <a class="choose" onclick="load_table_cv()" style="padding-right: 40%">Công việc</a>
+    </div>
+    <div class="right w-20per">
+        <input type="text" name="search" class="search">
     </div>
     <div id="table"></div>
     <div id="chart" style="width: 100%; height: 300px"></div>
