@@ -5,27 +5,23 @@ body {
 
 table {
     width: 100%;
-    border: 1px solid black;
+    border: nones;
     border-collapse: collapse;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr:nth-child(2n) {
+    background-color: rgba(130, 224, 170, 0.5);
 }
 
-th{
-    border: 1px solid black;
+th {
+    border-left: 2px solid #ba4a00;
+    border-right: 2px solid #ba4a00;
     display: table-cell;
     padding: 8px;
 }
 
-td{
+td {
     padding: 5px;
-}
-
-th {
-    border: 1px solid black;
-    display: table-cell;
 }
 
 .title {
@@ -44,33 +40,64 @@ th {
     text-align: center;
 }
 
-.search{
+.search {
     display: inline-block;
     padding-right: 0px;
 }
 
-/*Khoang cach*/
-
-.w-20per{
-    width: 20%;
-}
-
-.w-50per{
-    width: 50%;
-}
-
-.w-80per{
-    width: 80%;
-}
-
-.p-r-0{
-    padding-right: 0;
-}
-
-.nav button, p, input{
+.nav p, a, input, button {
     display: inline-block;
 }
 
-.nav input{
-    padding-right: auto;
+a {
+    text-decoration: none;
 }
+
+a.choose {
+    color: cadetblue;
+    margin-left: 8px
+}
+
+a.choose:hover {
+    color: chocolate;
+}
+
+p.header {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+p.time {
+    font-size: 15px;
+}
+
+input.search {
+    border: none;
+    border-bottom: 1.3px solid black;
+}
+
+button.icon {
+    border: none;
+    background-color: white;
+}
+
+
+/*Khoang cach*/
+
+.w-20per {
+    width: 20%;
+}
+
+.w-50per {
+    width: 50%;
+}
+
+.w-80per {
+    width: 80%;
+}
+
+.p-r-0 {
+    padding-right: 0;
+}
+
