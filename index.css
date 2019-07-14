@@ -3,6 +3,10 @@ body {
     font-size: 15px;
 }
 
+div{
+    padding-top: 2%;
+}
+
 table {
     width: 100%;
     border: nones;
@@ -40,11 +44,6 @@ td {
     text-align: center;
 }
 
-.search {
-    display: inline-block;
-    padding-right: 0px;
-}
-
 .nav p, a, input, button {
     display: inline-block;
 }
@@ -55,7 +54,7 @@ a {
 
 a.choose {
     color: cadetblue;
-    margin-left: 8px
+    margin-left: 1%;
 }
 
 a.choose:hover {
@@ -75,6 +74,7 @@ p.time {
 input.search {
     border: none;
     border-bottom: 1.3px solid black;
+    width: 100%;
 }
 
 button.icon {
