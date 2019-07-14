@@ -3,9 +3,11 @@
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta charset="UTF-8">
-    <title>Báo cáo năng suất</title>
-    <link href="./index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Báo cáo năng suất</title>
+    <link type="text/css" href="index.css" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 <div class="title">
@@ -15,8 +17,11 @@
 
 <div class="left w-80per">
     <div class="left w-50per">
-        <button>Nhan vien</button>
+
+        <p style="display: inline-block">Hien thi theo:</p>
+        <button style="display: inline-block">Nhan vien</button>
         <button>Cong viec</button>
+
     </div>
     <div class="right p-r-0">
         <div class="p-r-0">
@@ -44,8 +49,8 @@
                 <td class="text-center">80%</td>
             </tr>
         </thead>
-
     </table>
+    <div id="chart" style="width: 100%; height: 500px"></div>
 </div>
 
 <div class="right w-20per">
