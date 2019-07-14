@@ -44,6 +44,11 @@ th {
     text-align: center;
 }
 
+.search{
+    display: inline-block;
+    padding-right: 0px;
+}
+
 /*Khoang cach*/
 
 .w-20per{
@@ -60,4 +65,12 @@ th {
 
 .p-r-0{
     padding-right: 0;
+}
+
+.nav button, p, input{
+    display: inline-block;
+}
+
+.nav input{
+    padding-right: auto;
 }
