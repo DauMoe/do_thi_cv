@@ -32,6 +32,7 @@ function load_table_nv() {
     };
     xhttp.open("GET", "table_nv.html", true);
     xhttp.send();
+    document.getElementsByName("search")[0].placeholder="Tìm kiếm theo tên nhân viên"
 }
 
 //AJAX load table cong viec
@@ -44,4 +45,6 @@ function load_table_cv() {
     };
     xhttp.open("GET", "table_cv.html", true);
     xhttp.send();
+    document.getElementsByName("search")[0].placeholder="Tìm kiếm theo công việc"
+
 }
