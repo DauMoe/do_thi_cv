@@ -31,7 +31,6 @@ function load_table_nv() {
         }
     };
     xhttp.open("GET", "table_nv.html", true);
-    xhttp.open("GET", "table_nv.html", true);
     xhttp.send();
 }
 
